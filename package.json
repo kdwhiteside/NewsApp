@@ -1,0 +1,23 @@
+//mongodb://heroku_rv5kqdj4:e3ud9j0ua0amflgodios5d0l18@ds143737.mlab.com:43737/heroku_rv5kqdj4
+{
+  "name": "newsapp",
+  "version": "1.0.0",
+  "description": "news website scraper",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "news"
+  ],
+  "author": "Kevin Whiteside",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.6.6",
+    "request": "^2.78.0"
+  }
+}
